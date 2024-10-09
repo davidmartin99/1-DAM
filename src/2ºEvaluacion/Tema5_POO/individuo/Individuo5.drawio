@@ -1,0 +1,62 @@
+<mxfile host="Electron" modified="2024-01-19T10:54:15.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Vmbzd3dB0n52fFupDsoV" version="22.1.16" type="device">
+  <diagram name="Página-1" id="YnLF1IXc6mq3wFn4TNAp">
+    <mxGraphModel dx="990" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JejaCBYRVTD5xdjX5whF-1" value="Individuo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+          <mxGeometry x="90" y="70" width="290" height="300" as="geometry">
+            <mxRectangle x="330" y="380" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JejaCBYRVTD5xdjX5whF-2" value="- dni: String&lt;br&gt;- nombre: String&lt;br&gt;- fechaNacimiento: int&lt;br&gt;- poblacion: int&lt;br&gt;&lt;br&gt;(se pone - y no + porque es private)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JejaCBYRVTD5xdjX5whF-1" vertex="1">
+          <mxGeometry y="26" width="290" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="JejaCBYRVTD5xdjX5whF-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="JejaCBYRVTD5xdjX5whF-1" vertex="1">
+          <mxGeometry y="120" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JejaCBYRVTD5xdjX5whF-4" value="+ Individuo(dni, nombre, fechaNacimiento):&lt;br&gt;&lt;br&gt;+ getDni: String&lt;br&gt;+ getNombre: String&lt;br&gt;+ getFechaNacimiento: int&lt;br&gt;+ getPoblacion: int&lt;br&gt;&lt;br&gt;+ setDni(String dni): void&lt;br&gt;+ setNombre(String nombre): void&lt;br&gt;+ setFechaNacimiento(int FechaNacimiento): void&lt;br&gt;+ setPoblacion(int poblacion): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JejaCBYRVTD5xdjX5whF-1" vertex="1">
+          <mxGeometry y="128" width="290" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="TFUrkvJyWQB1-A0RtAaH-1" value="Empleado" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="470" y="70" width="290" height="300" as="geometry">
+            <mxRectangle x="330" y="380" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFUrkvJyWQB1-A0RtAaH-2" value="- nombre: String&lt;br&gt;- sueldo: double&lt;br&gt;&lt;br&gt;(se pone - y no + porque es private)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TFUrkvJyWQB1-A0RtAaH-1" vertex="1">
+          <mxGeometry y="26" width="290" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="TFUrkvJyWQB1-A0RtAaH-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="TFUrkvJyWQB1-A0RtAaH-1" vertex="1">
+          <mxGeometry y="120" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TFUrkvJyWQB1-A0RtAaH-4" value="+ Empleado(): void&lt;br&gt;+ Empleado (nombre, sueldo): void&lt;br&gt;&lt;br&gt;+ getNombre: String&lt;br&gt;+ getSueldo: double&lt;br&gt;&lt;br&gt;+ setNombre(String nombre): void&lt;br&gt;+ setSueldo(double sueldo): void&lt;br&gt;&lt;br&gt;+subirSueldo(porcentaje): void&lt;br&gt;+ mostrarDatos(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TFUrkvJyWQB1-A0RtAaH-1" vertex="1">
+          <mxGeometry y="128" width="290" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="bMvg8UDyBpCcVz2ek4_d-1" value="Fecha" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="130" y="400" width="260" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="bMvg8UDyBpCcVz2ek4_d-2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;- dia: int&lt;br&gt;- mes: int&amp;nbsp;&lt;br&gt;- año: int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" parent="bMvg8UDyBpCcVz2ek4_d-1" vertex="1">
+          <mxGeometry y="26" width="260" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="bMvg8UDyBpCcVz2ek4_d-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="bMvg8UDyBpCcVz2ek4_d-1" vertex="1">
+          <mxGeometry y="100" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bMvg8UDyBpCcVz2ek4_d-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;+ Fecha(): void&lt;br&gt;+ Fecha(dia,mes,año): void&lt;br&gt;&lt;br&gt;+ setDia(int dia): void&amp;nbsp;&lt;br&gt;+ setMes(int mes): void&lt;br&gt;+ setAño(int año): void&lt;br&gt;+ getDia: int&lt;br&gt;+ getMes: int&lt;br&gt;+&amp;nbsp; getAño: int&lt;br&gt;&lt;br&gt;+ fechaCorrecta(): boolean&lt;br&gt;- esBisiesto(): boolean&lt;br&gt;+ diaSiguiente(): void&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" parent="bMvg8UDyBpCcVz2ek4_d-1" vertex="1">
+          <mxGeometry y="108" width="260" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="1NlxU5OS-ULUakPJYuyi-1" value="DNI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="485" y="450" width="260" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1NlxU5OS-ULUakPJYuyi-2" value="- numDNI: int&lt;br&gt;+ LETRAS_DNI: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1NlxU5OS-ULUakPJYuyi-1">
+          <mxGeometry y="26" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="1NlxU5OS-ULUakPJYuyi-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1NlxU5OS-ULUakPJYuyi-1">
+          <mxGeometry y="70" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1NlxU5OS-ULUakPJYuyi-4" value="+ establecer(String nif): void&lt;br&gt;+ establecer(int dni):void&lt;br&gt;+ obtenerNIF():String&lt;br&gt;+ obtenerDNI(): int&lt;br&gt;- extraerLetraNIF(String nif): char&lt;br&gt;- extraerNumeroNIF(String nif): int&lt;br&gt;- calcularLetraNIF(int numeroDNI): char&lt;br&gt;- validarNIF(String nif):boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1NlxU5OS-ULUakPJYuyi-1">
+          <mxGeometry y="78" width="260" height="152" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
